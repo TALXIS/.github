@@ -1,5 +1,17 @@
-Microsoft Power Platform is a declarative application platform. Define entities and you get a database with auto-generated OData/REST API. Define forms, views, and dashboards and you get a frontend. Define security roles and you get row-level and column-level access control. Plug in business logic with a backend extensibility framework.
+[![CLI](https://img.shields.io/nuget/v/TALXIS.CLI?label=CLI&color=purple)](https://www.nuget.org/packages/TALXIS.CLI) [![SDK](https://img.shields.io/nuget/v/TALXIS.DevKit.Build.Sdk?label=SDK&color=blue)](https://www.nuget.org/packages/TALXIS.DevKit.Build.Sdk) [![Controls](https://img.shields.io/nuget/v/TALXIS.Controls.FileExplorer.Package?label=Controls&color=green)](https://www.nuget.org/packages?q=TALXIS.Controls)
 
-Coding agents work best when the problem space is small and well-bounded. Declarative metadata has a vastly smaller problem space than imperative code. Agents composing from constrained building blocks produce more reliable output than agents freelancing across a large codebase. Less code also means less to maintain, test, and break - regardless of who or what wrote it. Governance, audit trails and compliance are handled by the platform rather than reimplemented in every application.
+[![Docs](https://img.shields.io/badge/docs-talxis.com-blue)](https://docs.talxis.com) [![Discussions](https://img.shields.io/badge/ask-questions-orange)](https://github.com/TALXIS/questions/discussions) [![Get started](https://img.shields.io/badge/get_started-ALM_lab-brightgreen)](https://github.com/TALXIS/alm-lab)
 
-TALXIS gives you the tooling to work with all of that as source files in git, pre-configured devcontainers where coding agents run agentic workflows against Power Platform projects and components for the parts the platform does not cover.
+**Power Platform** is the industry standard for enterprise software. It gives you a **database**, **API**, **frontend**, **security** and **extensibility** from declarative metadata. Most business app features don't need to be coded from the ground up. Coding agents operate over a smaller footprint here, stay better focused, and you don't carry the weight of maintaining code that the platform already handles. You get governance, standardization and managed deployment of apps and agents at scale with significantly less vendor lock-in and unmanageable code.
+
+**TALXIS** is the toolchain that ties it together:
+
+- **Build system** - compile solutions from source with MSBuild, validate before deployment
+- **Devcontainers** - pre-configured environments for coding agents
+- **CLI + MCP server** - scaffolding, deployment, data access, schema management
+- **React controls** - extend the platform with richer UI patterns (grids, lookups, file management, maps)
+- **[UBML](https://github.com/TALXIS/ubml)** - a notation that gives coding agents direction by describing what a business actually needs
+
+The goal is to shift focus from implementing unnecessary code to understanding the business and building the right things with minimum code and maintenance burden. Source files in git, CI that validates before anything touches an environment, and components you don't have to build from scratch.
+
+Commercial support and services provided by [@NETWORG](https://www.networg.com). Priority support at [support.networg.com](https://support.networg.com).
